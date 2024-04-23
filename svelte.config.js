@@ -7,5 +7,8 @@ const config = {
         appDir: 'app', // Required as the default is _app
         adapter: adapter()
     },
+	paths: {
+		base: dev ? '/languagereading' : process.env.BASE_PATH,
+	}
 };
 export default config;
