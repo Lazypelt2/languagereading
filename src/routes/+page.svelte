@@ -1,4 +1,6 @@
 <script>
+	import SimpleButton from './SimpleButton.svelte';
+
 	console.log("Component loaded");
 	let text = '';
 	let targetLanguage = '';
@@ -63,6 +65,7 @@
 		to receive a concise summary and targeted practice questions. This tool is designed
 		to aid language learners in understanding and engaging with text content.
 	  </p>
+	  <SimpleButton />
 	  <textarea bind:value={text} placeholder="Enter text here or upload a file below." rows="4"></textarea>
 	  <input type="file" on:change={handleFileChange} accept=".txt,.pdf" />
 	
