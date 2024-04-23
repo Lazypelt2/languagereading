@@ -11,6 +11,7 @@
 	}
 
 	async function handleSubmit() {
+		console.log("hi!");
 		const formData = new FormData();
 		formData.append('text', text);
 		formData.append('targetLanguage', targetLanguage);
