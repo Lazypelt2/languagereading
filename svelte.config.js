@@ -8,7 +8,7 @@ const config = {
         adapter: adapter()
     },
 	paths: {
-		base: dev ? '/languagereading' : process.env.BASE_PATH,
+		base: dev ? '' : "/languagereading",
 	}
 };
 export default config;

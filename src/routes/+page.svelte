@@ -1,4 +1,5 @@
 <script>
+	console.log("Component loaded");
 	let text = '';
 	let targetLanguage = '';
   	let cefrLevel = '';
